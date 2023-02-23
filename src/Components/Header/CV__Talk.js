@@ -1,7 +1,7 @@
 import React from 'react';
 import CV from "../../assests/cv.pdf";
 
-function CV__Talk() {
+function Cv__Talk() {
   return (
     <div className='cv_talk'>
         <a href={CV} download className='btn'>Download CV</a>
@@ -10,4 +10,4 @@ function CV__Talk() {
   )
 }
 
-export default CV__Talk;
+export default Cv__Talk;
