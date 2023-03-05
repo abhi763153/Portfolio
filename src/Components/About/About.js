@@ -21,20 +21,20 @@ function About() {
 
         <div className="about_content">
           <div className="about_sub_container">
-              <div className="about_experience">
-                <span><MdOutlineWorkOutline /></span>
+              <div className="card">
+                <MdOutlineWorkOutline className='about_icon' />
                 <h4>Experience</h4>
-                <p>3+ Years working</p>
+                <p>3+ Years</p>
               </div>
 
-              <div className="about_client">
-                <span><BsPeople /></span>
+              <div className="card">
+                <BsPeople className='about_icon'/>
                 <h4>Clients</h4>
                 <p>800+ woldwide</p>
               </div>
 
-              <div className="about_projects">
-                <span><AiOutlineProject /></span>
+                <div className="card">
+              <AiOutlineProject className='about_icon'/>
                 <h4>Projects</h4>
                 <p>80+ completed</p>
               </div>
